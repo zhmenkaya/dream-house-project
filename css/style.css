@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'SFUIDisplayBold';
+    src: url(/assets/fonts/SFUIDisplay-Bold.woff)  format('woff');
+}
+@font-face {
+    font-family: 'SFUIDisplayLight';
+    src: url(/assets/fonts/SFUIDisplay-Light.woff)  format('woff');
+}
+@font-face {
+    font-family: 'SFUIDisplayRegular';
+    src: url(/assets/fonts/SFUIDisplay-Regular.woff)  format('woff');
+}
+@font-face {
+    font-family: 'SFUIDisplaySemibold';
+    src: url(/assets/fonts/SFUIDisplay-Semibold.woff)  format('woff');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 0 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #fff;
+}
+
+.header__nav{
+    display: flex;
+    font-family: 'SFUIDisplayRegular', serif;
+    font-weight: 400;
+    color: #585858;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.header__item{
+    margin-right: 48px;
+}
+
+.header__item:last-child{
+    margin-right: none;
+}
+
+.header__btn--sign-up{
+    width: 99px;
+    height: 48px;
+    background-color: #FD665E;
+    border-radius: 4px;
+    font-family: 'SFUIDisplaySemibold', serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    border: none;
+    margin-left: 40px;
+}
+
+.header__btn--sign-in{
+    font-family: 'SFUIDisplayRegular', serif;
+    font-weight: 400;
+    color: #585858;
+    font-size: 14px;
+    line-height: 40px;
+    border: none;
+    background: none;
+    margin-left: 40px;
+}
