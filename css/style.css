@@ -21,22 +21,30 @@ body{
     box-sizing: border-box;
 }
 .header{
-    padding: 0 50px;
+    padding: 15px 35px 0 50px;
     display:flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
     background-color: #fff;
+    
 }
-
+.header__navigation{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-right: 22px;
+}
 .header__nav{
     display: flex;
+    align-items: center;
     font-family: 'SFUIDisplayRegular', serif;
     font-weight: 400;
     color: #585858;
     font-size: 14px;
     line-height: 40px;
+    
 }
-
 .header__list{
     display: flex;
     list-style-type: none;
@@ -50,6 +58,10 @@ body{
     margin-right: none;
 }
 
+.header__autorization{
+    display: flex;
+    align-items: center;
+}
 .header__btn--sign-up{
     width: 99px;
     height: 48px;
