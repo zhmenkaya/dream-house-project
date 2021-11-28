@@ -91,6 +91,7 @@ body{
     margin-left: 40px;
 }
 
+
 .container{
     max-width: 1090px;
     margin: 0 auto;
@@ -114,6 +115,7 @@ body{
 .main__bottom{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 107px;
 }
 .main__left-block{
     display: flex;
@@ -151,4 +153,21 @@ body{
     line-height: 40px;
     border: none;
 
+}
+
+.gallery__title{
+    display: block;
+    max-width: 535px;
+    font-family: 'NewYorkExtraLargeBold', serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 48px;
+    line-height: 124%;
+    text-align: center;
+    margin: 0 auto 46px;
+}
+.gallery__block-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
 }
