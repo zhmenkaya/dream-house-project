@@ -332,6 +332,72 @@ body{
     text-transform: uppercase ;
 }
 
+.reviews{
+    background:linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+    height: 100%;
+}
+
+.reviews__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__top{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__top-title{
+    display: block;
+    max-width: 370px;
+    font-family: 'NewYorkExtraLargeBold', serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 48px;
+    line-height: 124%;
+    margin-bottom: 40px;
+    text-transform:capitalize;
+    letter-spacing: -0.04em;
+}
+
+.reviews__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__bottom-title{
+    display: block;
+    max-width: 505px;
+    font-family: 'NewYorkExtraLargeBold', serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 48px;
+    line-height: 124%;
+    margin-bottom: 64px;
+    letter-spacing: -0.04em;
+    margin-top: 195px;
+}
+
+
+
+.reviews__btn{
+    display: block;
+    width: 204px;
+    height: 56px;
+    background-color: #FD665E;
+    border-radius: 4px;
+    font-family: 'SFUIDisplaySemibold', serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    border: none;
+    text-transform: uppercase ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 .partners__title{
     display: block;
     max-width: 300px;
