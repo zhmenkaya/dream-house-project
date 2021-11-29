@@ -347,3 +347,32 @@ body{
     justify-content: space-between;
     margin-bottom: 105px;
 }
+
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 84px 0;
+}
+.footer__nav{
+    display: flex;
+    align-items:center;
+}
+
+.footer__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer__item{
+    margin-right: 48px;
+    font-family: 'SFUIDisplaySemibold', serif;
+    font-weight: 600;
+    color: #585858;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.footer__wrap-img{
+    display: flex;
+    align-items:center;
+}
