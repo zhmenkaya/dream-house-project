@@ -345,6 +345,7 @@ body{
 .reviews__top{
     display: flex;
     flex-direction: column;
+    align-content: flex-end;
 }
 
 .reviews__top-title{
@@ -358,6 +359,112 @@ body{
     margin-bottom: 40px;
     text-transform:capitalize;
     letter-spacing: -0.04em;
+}
+.reviews__slider{
+    position: relative;
+}
+.reviews__slider::before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 253px;
+    width: 57px;
+    height: 41px;
+    background: url(/assets/images/111.svg) 0 0 no-repeat;
+}
+
+.slider__text-review{
+    font-family: 'SFUIDisplayLight', serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 32px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    max-width: 765px;
+    margin: 0;
+    margin-bottom: 59px;
+}
+
+.slider__autor-review{
+    font-family: 'SFUIDisplayRegular', serif;
+    font-style:normal;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.slider{
+    position: relative;
+    padding: 0 0 0 166px;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background: grey;
+    font-size: 015px;
+    width: 24px;
+    height: 24px;
+}
+
+.slick-prev:before, .slick-next:before{
+    content: "" !important;
+}
+.slider .slick-arrow.slick-prev{
+    top: 277px;
+    left: 773px;
+    background:url(/assets/images/arrow-left.svg) 0 0 no-repeat;
+}
+.slider .slick-arrow.slick-next{
+    top: 276px;
+    right: 20px;
+    background:url(/assets/images/red-arrow.svg) 0 0 no-repeat;
+}
+.slider__item{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .reviews__bottom{
@@ -378,6 +485,29 @@ body{
     margin-top: 195px;
 }
 
+.reviews__wrap-img{
+    position: relative;
+}
+
+.reviews__wrap-img::before{
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: -72px;
+    width: 201px;
+    height: 130px;
+    background: url(/assets/images/cloud.png) 0 0 no-repeat;
+}
+
+.reviews__wrap-img::after{
+    content: "";
+    position: absolute;
+    top: 208px;
+    right: -23px;
+    width: 130px;
+    height: 84px;
+    background: url(/assets/images/small-cloud.png) 0 0 no-repeat;
+}
 
 
 .reviews__btn{
