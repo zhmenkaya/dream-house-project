@@ -330,3 +330,20 @@ body{
     border: none;
     text-transform: uppercase ;
 }
+
+.partners__title{
+    display: block;
+    max-width: 300px;
+    font-family: 'NewYorkExtraLargeBold', serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 48px;
+    line-height: 124%;
+    margin-bottom: 56px;
+}
+
+.partners__wrap-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
