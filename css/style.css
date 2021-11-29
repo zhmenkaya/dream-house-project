@@ -170,4 +170,114 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
+    margin-bottom: 128px;
+}
+
+.feature__title{
+    display: block;
+    max-width: 435px;
+    font-family: 'NewYorkExtraLargeBold', serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 48px;
+    line-height: 124%;
+    margin-bottom: 40px;
+}
+
+.feature__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__wrap-img{
+    max-width: 535px;
+}
+
+.feature__img{
+    width: 100%;
+}
+
+.feature__right-block{
+    max-width: 305px;
+}
+
+.feature__list{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.feature__item1{
+    position: relative;
+}
+.feature__item1::before{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 56px;
+    background-image: url(/assets/images/guarantion.svg);
+    position: absolute;
+    top: 6px;
+    left: -79px;
+}
+
+.feature__item2{
+    position: relative;
+}
+.feature__item2::before{
+    content: "";
+    display: block;
+    width: 39px;
+    height: 48px;
+    background-image: url(/assets/images/feel.svg);
+    position: absolute;
+    top: 6px;
+    left: -79px;
+}
+
+.feature__item3{
+    position: relative;
+}
+.feature__item3::before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 53px;
+    background-image: url(/assets/images/escort.svg);
+    position: absolute;
+    top: 6px;
+    left: -79px;
+}
+.feature__item-title{
+    font-family: 'SFUIDisplayBold', serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+}
+
+.feature__item-text{
+    font-family: 'SFUIDisplayRegular', serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    margin-bottom: 48px;
+}
+
+.feature__btn{
+    width: 175px;
+    height: 56px;
+    background-color: #FD665E;
+    border-radius: 4px;
+    font-family: 'SFUIDisplaySemibold', serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    border: none;
+    text-transform: uppercase ;
 }
