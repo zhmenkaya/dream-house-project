@@ -234,6 +234,7 @@ body{
 .feature__wrapper{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .feature__wrap-img{
