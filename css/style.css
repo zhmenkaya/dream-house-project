@@ -592,7 +592,29 @@ body{
     align-items:center;
 }
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    .main__title {
+        font-size: 110px;
+    }
+    .main__text {
+        max-width: 255px;
+    }
+    .main__wrap-img {
+        max-width: 720px;
+    }
+    .gallery__block-img {
+        grid-gap: 15px;
+    }
+
+    .slider .slick-arrow.slick-prev{
+        left: 690px;
+    }
+    .slider .slick-arrow.slick-next{
+        right: 70px;
+    }
     /* .footer__inner {
         max-width: 1350px;
     }
