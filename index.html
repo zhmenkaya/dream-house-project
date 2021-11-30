@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/magnific-popup.css">
   <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
   <link rel="stylesheet" href="./css/style.css">
@@ -16,10 +18,10 @@
       <img  class="header__logo"src="./assets/images/logo-arch.svg" alt="">
       <nav class="header__nav">
         <ul class="header__list">
-          <li class="header__item">Design Gallery</li>
-          <li class="header__item">List of Architect</li>
-          <li class="header__item">Articles</li>
-          <li class="header__item">How it Works</li>
+          <li class="header__item"><a class="header__link" href="">Design Gallery</a></li>
+          <li class="header__item"><a class="header__link" href="">List of Architect</a></li>
+          <li class="header__item"><a class="header__link" href="">Articles</a></li>
+          <li class="header__item"><a class="header__link" href="">How it Works</a></li>
         </ul>
       </nav>
     </div>
@@ -50,48 +52,26 @@
   <section class="gallery">
     <div class="container">
       <h2 class="gallery__title">Build professional valuable room for you</h2>
-      <div class="gallery__block-img">
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-01.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
-        
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-02.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
+      <div class="gallery__block-img gallerys">
 
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-03.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
-
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-04.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
-
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-01.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
-
-        <div class="gallery__wrap-img">
-          <div class="gallery__img-inner">
-            <img class="gallery__img" src="./assets/images/img-02.png" alt="">
-            <img class="gallery__img-increase" src="./assets/images/for-bigger.svg" alt="">
-          </div>
-        </div>
+            <a href="./assets/images/img-01.png" title="img-01">
+              <img class="gallery__img" src="./assets/images/img-01.png" alt="">
+            </a>
+            <a href="./assets/images/img-02.png" title="img-02" style="width:340px;height:432px;">
+              <img class="gallery__img" src="./assets/images/img-02.png" width="340" height="432" alt="">
+            </a>
+            <a href="./assets/images/img-03.png" title="img-03" style="width:340px;height:432px;">
+              <img class="gallery__img" src="./assets/images/img-03.png" width="340" height="432" alt="">
+            </a>
+            <a href="./assets/images/img-04.png" title="img-04" style="width:340px;height:432px;">
+              <img class="gallery__img" src="./assets/images/img-04.png" width="340" height="432" alt="">
+            </a>
+            <a href="./assets/images/img-01.png" title="img-05" style="width:340px;height:432px;">
+              <img class="gallery__img" src="./assets/images/img-01.png" width="340" height="432" alt="">
+            </a>
+            <a href="./assets/images/img-02.png" title="img-06" style="width:340px;height:432px;">
+              <img class="gallery__img" src="./assets/images/img-02.png" width="340" height="432" alt="">
+            </a>     
         
       </div>
     </div>
@@ -187,11 +167,11 @@
       <div class="footer__wrap">
         <nav class="footer__nav">
           <ul class="footer__list">
-            <li class="footer__item">About Us</li>
-            <li class="footer__item">How it Works</li>
-            <li class="footer__item">FAQ</li>
-            <li class="footer__item">Contact Us</li>
-            <li class="footer__item">Privacy Policy</li>
+            <li class="footer__item"><a class="footer__link" href="">About Us</a></li>
+            <li class="footer__item"><a class="footer__link" href="">How it Works</a></li>
+            <li class="footer__item"><a class="footer__link" href="">FAQ</a></li>
+            <li class="footer__item"><a class="footer__link" href="">Contact Us</a></li>
+            <li class="footer__item"><a class="footer__link" href="">Privacy Policy</a></li>
           </ul>
         </nav>
         <div class="footer__wrap-img">
@@ -200,10 +180,11 @@
       </div>
     </div>
   </footer>
-
-
+ 
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/assets/libs/jquery.magnific-popup.min.js"></script>
+  <script src="/assets/libs/jquery.magnific-popup.js"></script>
   <script src="/slick/slick.min.js"></script>
   <script src="/assets/js/script.js"></script>
 </body>
