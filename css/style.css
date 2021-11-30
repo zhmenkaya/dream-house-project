@@ -656,6 +656,70 @@ body{
     }
 }
 
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 665px;
+    }
+    .main__title {
+        font-size: 95px;
+    }
+    .main__bottom {
+        flex-wrap: wrap;
+    }
+    .main__text {
+        max-width: 548px;
+    }
+    .main__btn {
+        margin-bottom: 50px;
+    }
+    .gallery__block-img {
+        grid-gap: 9px;
+    }
+    .feature__wrapper {
+        flex-wrap: wrap;
+    }
+    .feature__wrap-img {
+        max-width: 500px;
+    }
+    .feature__right-block {
+        margin-top: 30px;
+        padding-left: 80px;
+        max-width: 375px;
+    }
+    .slider {
+        padding: 0 0 0 123px;
+    }
+    .reviews__slider::before {
+        left: 168px;
+    }
+    .slider__text-review {
+        margin-bottom: 26px;
+    }
+    .slider .slick-arrow.slick-next {
+        top: 400px;
+    }
+    .slider .slick-arrow.slick-prev {
+        left: 420px;
+        top: 400px;
+    }
+    .reviews__bottom-title {
+        font-size: 39px;
+        margin-top: 130px;
+    }
+    .partners__wrap-img {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 585px;
+        margin-bottom: 46px;
+    }
+    .partners__img{
+        margin-bottom: 15px;
+    }
+    .footer__wrap {
+        margin: 45px 0;
+    }
+}
+
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
 	opacity: 0;
