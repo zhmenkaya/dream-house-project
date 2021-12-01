@@ -14,22 +14,32 @@
 <body>
   <header class="header">
 
-    <div class="header__navigation">
-      <img  class="header__logo"src="./assets/images/logo-arch.svg" alt="">
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item"><a class="header__link" href="">Design Gallery</a></li>
-          <li class="header__item"><a class="header__link" href="">List of Architect</a></li>
-          <li class="header__item"><a class="header__link" href="">Articles</a></li>
-          <li class="header__item"><a class="header__link" href="">How it Works</a></li>
-        </ul>
-      </nav>
+    <div class="header__wrap">
+
+        <img  class="header__logo"src="./assets/images/logo-arch.svg" alt="">
+          <div class="header__burger-btn">
+            <img class="header__burger-btn-icon" src="./assets/images/burger.png" alt="">
+          </div>
+        <div class="header_inner-nav">
+          <div class="header__navigation">
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="">Design Gallery</a></li>
+                <li class="header__item"><a class="header__link" href="">List of Architect</a></li>
+                <li class="header__item"><a class="header__link" href="">Articles</a></li>
+                <li class="header__item"><a class="header__link" href="">How it Works</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__autorization">
+            <img  class="header__search" src="./assets/images/search-icon.svg" alt="">
+            <button class="header__btn header__btn--sign-in">Sign In</button>
+            <button class="header__btn header__btn--sign-up">Sign Up</button>
+          </div>
+        </div>
+          
     </div>
-    <div class="header__autorization">
-      <img  class="header__search" src="./assets/images/search-icon.svg" alt="">
-      <button class="header__btn header__btn--sign-in">Sign In</button>
-      <button class="header__btn header__btn--sign-up">Sign Up</button>
-    </div>
+    
   </header>
 
   <main class="main">
